@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Insta-PP",
+    "version": "0.1",
+    "description" : "Opens selected instagram profile photo in the current tab",
+    
+    "background": {
+        "scripts": ["src/background.js"]
+    },
+    
+    "permissions":[
+        "https://*.instagram.com/*",
+        "http://*.instagram.com/*",
+        "contextMenus"
+    ]
+    
+}
